@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: inter;
+    text-align: center;
+    background-color: #F4F4F4;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6943FF;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#result {
+    font-size: 60px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: #6943FF;
+    color: white;
+    outline: none;
+}
+
+#convert-btn {
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #B295FF;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.metric-cards {
+    padding: 0px 25px;
+    /* border-bottom: 10px solid; */
+}
